@@ -13,6 +13,8 @@ one key patch via sourcetree custom actions
 并winrar安装根目录添加到系统环境变量中
 以支持rar命令
 
+> 设置环境变量后需重启sourcetree生效
+
 ### 2. 在sourcetree中添加custom action
 
 > 菜单：Tools -> Options -> Custom Actions -> Add
