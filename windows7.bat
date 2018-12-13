@@ -14,6 +14,7 @@ if %num% neq 2 (
 set xxx=%time:~0,10%
 set "xxx=%xxx::=_%"
 set "xxx=%xxx:.=_%"
+set "xxx=%xxx: =_%"
 echo %xxx%
 for /F %%i in ('git diff  %1 %2  --name-only') do ( 
 	echo rar a %cd%\path_%xxx%.zip %%i
